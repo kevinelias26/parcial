@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+    height: 60px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 20px; /* Espacio entre la imagen y los enlaces */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    margin-left: auto; /* Mueve los botones a la derecha */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    margin-right: 8px;
+    width: 40px; /* Ajusta el tamaño según sea necesario */
+    height: px; /* Ajusta el tamaño según sea necesario */
+}
+
+.banner {
+    background-color: #4e4e4e;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.banner-image {
+    width: 700px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el borde derecho */
+}
